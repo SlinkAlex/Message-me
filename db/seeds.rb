@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Message.create(body: "this is my first message", user: User.first)
-Message.create(body: "this is my second message", user: User.last)
-Message.create(body: "this is my third message", user: User.find(3))
+User.create(username: "alexander", email: "alexander@gmail.com", password: "password")
+User.create(username: "leonardo", email: "leonardo@gmail.com", password: "password")
+User.create(username: "raquel", email: "raquel@gmail.com", password: "password")

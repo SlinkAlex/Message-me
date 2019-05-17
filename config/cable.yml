@@ -1,0 +1,10 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:251807542fbfeda2f790d50c0e56fe7d@hammerjaw.redistogo.com:9188/
+  channel_prefix: message_me_production
